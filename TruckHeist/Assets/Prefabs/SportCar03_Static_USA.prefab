@@ -4019,6 +4019,7 @@ Transform:
   - {fileID: 634022830033614055}
   - {fileID: 636094498422627299}
   - {fileID: 636060847637407079}
+  - {fileID: 8918555977351408771}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4120,8 +4121,8 @@ MonoBehaviour:
     m_rightWheel: {fileID: 838638607}
     m_motor: 0
     m_steering: 0
-  m_maxTorqueSpeed: 150
-  m_maxSteeringAngle: 45
+  m_maxTorqueSpeed: 750
+  m_maxSteeringAngle: 40
 --- !u!1 &638099967619567101
 GameObject:
   m_ObjectHideFlags: 0
@@ -4898,3 +4899,78 @@ Transform:
   m_Father: {fileID: 634272597522459645}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5145164349950758236
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 635588802455483413}
+    m_Modifications:
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4200306
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19299996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.24484682
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371140693650907347, guid: 8c5a137c3020ca74885cd82bff483a0e,
+        type: 3}
+      propertyPath: m_Name
+      value: Driver
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c5a137c3020ca74885cd82bff483a0e, type: 3}
+--- !u!4 &8918555977351408771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4369152307173401055, guid: 8c5a137c3020ca74885cd82bff483a0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 5145164349950758236}
+  m_PrefabAsset: {fileID: 0}
